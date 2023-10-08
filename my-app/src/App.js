@@ -3,13 +3,13 @@ import './App.css';
 import React from 'react';
 import Header from './components/Header';
 import Footer from './components/Footer';
+import HomePageCenterContent from './components/HomePageCenterContent';
 
 function App() {
   return (
     <div>
       <Header />
-      <h2>Varunkumar R</h2>
-      <div className="sample">Computer Science Student</div>
+      <HomePageCenterContent />
       <Footer />
     </div >
   );
